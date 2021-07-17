@@ -1,0 +1,28 @@
+{
+  "name": "miniproxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AresFitness/MiniProxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AresFitness/MiniProxy/issues"
+  },
+  "homepage": "https://github.com/AresFitness/MiniProxy#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2"
+  },
+  "devDependencies": {
+    "express-session": "^1.17.2"
+  }
+}
